@@ -10,6 +10,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 /* Navigation Start */
@@ -112,3 +113,18 @@ nav h1 {
   width: 80%;
 }
 /* Hero Section End */
+
+/* Brands Section Start */
+.Brands-Images {
+  width: 100vw;
+  height: 30vh;
+  padding: 20vh 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Brands-Images img {
+  width: 100%;
+}
+/* Brands Section End */
