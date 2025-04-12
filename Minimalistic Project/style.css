@@ -16,12 +16,14 @@ body {
 /* Navigation Start */
 
 nav {
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  padding: 4vh 5vw;
-  box-shadow: 0 0 10px #111;
+  padding: 0.4rem 5vw;
+  background-color: #252f44;
+  color: white;
 }
 
 .navLinks ul {
@@ -33,7 +35,7 @@ nav {
 }
 
 .navLinks a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 1.3em;
 }
@@ -43,7 +45,7 @@ nav h1 {
 }
 
 .btn {
-  padding: 1vh 2vw;
+  padding: 0.5rem 2vw;
   border: 2.5px solid black;
   background-color: transparent;
   cursor: pointer;
@@ -55,7 +57,7 @@ nav h1 {
 }
 
 .btn:hover {
-  background-color: black;
+  background-color: #252f44;
   color: white;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -79,16 +81,20 @@ nav h1 {
 /* Hero Section Start */
 .Hero-Section {
   width: 100vw;
-  height: 80vh;
+  height: 55vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4vh 5vw;
+  padding: 0.5rem 5vw;
+  margin-block: 4vh;
 }
 
-.Hero-left,
+.Hero-left {
+  width: 40vw;
+}
+
 .Hero-right {
-  width: 50vw;
+  width: 60vw;
 }
 .Hero-right {
   text-align: center;
@@ -96,12 +102,12 @@ nav h1 {
 
 .Hero-Section h2 {
   font-size: 3.4em;
-  padding: 4vh 0;
+  padding: 0.5rem 0;
 }
 
 .Hero-Section p {
   font-size: 1em;
-  padding-block: 1vh 5vh;
+  padding-block: 0.5rem 1rem;
 }
 
 .Hero-Section .btn {
@@ -110,15 +116,22 @@ nav h1 {
 }
 
 .Hero-right img {
-  width: 80%;
+  width: 55%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
+
 /* Hero Section End */
 
 /* Brands Section Start */
 .Brands-Images {
   width: 100vw;
-  height: 30vh;
-  padding: 20vh 5vw;
+  height: 20vh;
+  padding: 5vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
